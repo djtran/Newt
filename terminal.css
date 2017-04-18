@@ -10,18 +10,33 @@ body{
 	font-family: 'Inconsolata', monospace;
 	font-size: 14px;
 }
+a{
+	color: #cccccc;
+}
+a:hover{
+	color: inherit;
+}
 
-.history{
-	width:98%%;
+/* Settings Icon*/
+.settings{
+	position: fixed;
+	right: 1%;
+	top: 2%;
+}
+
+/* History */
+#history{
+	width:96%;
 	padding-left: 1%;
-	padding-right: 1%;
+	padding-right: 3%;
 	overflow-wrap:break-word;
 }
 
+/*CLI Prompt*/
 .prompt{
-	width: 98%;
+	width: 96%;
 	padding-left: 1%;
-	padding-right: 1%;
+	padding-right: 3%;
 	background: #1a1a1a;
 	display:flex;
 	flex-direction: row;
@@ -37,7 +52,7 @@ body{
 	outline: none;
 	flex-grow: 1;
 	/*		Text Formatting		*/
-	color: #eeeeee;
+	color: inherit;
 	font-family: 'Inconsolata', monospace;
 	font-size: 14px;
 }

@@ -2,6 +2,11 @@
 	"name":"New Tab Terminal",
 	"description":"Managing Google Chrome with shell commands",
 	"version":"0.1",
+	"icons":{
+		"16":"graphics/icon16.png",
+		"48":"graphics/icon48.png",
+		"128":"graphics/icon128.png"
+	},
 	"permissions": [
 		"tabs",			//_exit_ should close the terminal tab
 		"bookmarks",	//_ls_ and _cd_ can explore /bookmarks and /user
@@ -14,5 +19,5 @@
 	"chrome_url_overrides":{
 		"newtab":"terminal.html"
 	},
-	"manifest_version":2,
+	"manifest_version":2
 }
