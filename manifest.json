@@ -1,0 +1,18 @@
+{
+	"name":"New Tab Terminal",
+	"description":"Managing Google Chrome with shell commands",
+	"version":"0.1",
+	"permissions": [
+		"tabs",			//_exit_ should close the terminal tab
+		"bookmarks",	//_ls_ and _cd_ can explore /bookmarks and /user
+		"history",		//history can be shown as a file or a sep command
+		"identity",		//CLI prompt c:
+		"browsingData",	//history\browsingData can be cleared
+		"processes",	//_ps_ should show chrome processes
+		"storage"		//_ls_ and _cd_ can explore /user and /bookmarks
+	],
+	"chrome_url_overrides":{
+		"newtab":"terminal.html"
+	},
+	"manifest_version":2,
+}

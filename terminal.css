@@ -1,0 +1,43 @@
+body{
+	/*		Layout Formatting		*/
+	background:#222222;
+	height:100%;
+	width:100%;
+	padding:0;
+	margin:0;
+	/*		Text Formatting		*/
+	color: #eeeeee;
+	font-family: 'Inconsolata', monospace;
+	font-size: 14px;
+}
+
+.history{
+	width:98%%;
+	padding-left: 1%;
+	padding-right: 1%;
+	overflow-wrap:break-word;
+}
+
+.prompt{
+	width: 98%;
+	padding-left: 1%;
+	padding-right: 1%;
+	background: #1a1a1a;
+	display:flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+.prompt input{
+	/*width:100%;*/
+	background-color:transparent;
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+	height: 14px;
+	outline: none;
+	flex-grow: 1;
+	/*		Text Formatting		*/
+	color: #eeeeee;
+	font-family: 'Inconsolata', monospace;
+	font-size: 14px;
+}
