@@ -20,7 +20,7 @@ function parser(consoleIn)
 			print("Hello, I'm " + colorPhrase("Newt", cGreen) + "! Thanks for trying me out!");
 			break;
 		case "help":
-			print("Supported commands:<br>" + colorPhrase("hello help", cGreen) + "<br> In Progress:<br> " + colorPhrase("cowsay ls exit", cPink));
+			print("Supported commands:<br>" + colorPhrase("clear exit hello help", cGreen) + "<br> In Progress:<br> " + colorPhrase("cowsay ls vi", cPink));
 			break;
 		case "cowsay":
 			break;
