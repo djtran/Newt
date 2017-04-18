@@ -1,6 +1,6 @@
 {
-	"name":"New Tab Terminal",
-	"description":"Managing Google Chrome with shell commands",
+	"name":"Newt",
+	"description":"Managing Google Chrome with a shell as your New Tab!",
 	"version":"0.1",
 	"icons":{
 		"16":"graphics/icon16.png",
