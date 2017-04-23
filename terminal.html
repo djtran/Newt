@@ -1,23 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>New Tab Terminal</title>
+	<title>Newt</title>
 	<link rel="stylesheet" type="text/css" href="terminal.css"/>
-	<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
 	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 </head>
 
-<body class="terminal">
+<body class="terminal f-inconsolata">
 	<a href="settings.html"><span class="fa fa-cog fa-lg settings"></span></a>
 	<div id="history">
+	<pre style='color:#A6E22E'>
+                     _    
+                    | |   
+ _ __   _____      _| |_  
+| '_ \ / _ \ \ /\ / / __| 
+| | | |  __/\ V  V /| |_  
+|_| |_|\___| \_/\_/  \__| 
+	</pre>
+	type "help" to see a list of available commands. <br>
 	</div>
 	<div class="prompt">
-		<label for="prompt" id="promptLabel">djtran@Chrome ~$ &nbsp;</label> 
+		<label for="prompt" id="promptLabel" style='color:#FD971F'>djtran@Chrome ~$ &nbsp;</label> 
 		<input type="text" name="prompt" id="prompt" autofocus/>
 	</div>
 
 
 	<script src="jquery-3.2.1.min.js"></script>
+	<script src="js-lib/loadSettings.js"></script>
+	<script src="js-lib/trie.js"></script>
 	<script src="terminal.js"></script>
 </body>
 </html>

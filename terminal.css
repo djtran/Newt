@@ -1,3 +1,55 @@
+@font-face{
+	font-family: "Inconsolata";
+	src:"graphics/fonts/Inconsolata-Regular.ttf" format("truetype");
+}
+@font-face{
+	font-family: "Cabin";
+	src:"graphics/fonts/Cabin-Regular.ttf" format("truetype");
+}
+@font-face{
+	font-family: "Work Sans";
+	src:"graphics/fonts/WorkSans-Regular.ttf" format("truetype");
+}
+@font-face{
+	font-family: "Overpass";
+	src:"graphics/fonts/Overpass-Regular.ttf" format("truetype");
+}
+@font-face{
+	font-family: "Ubuntu";
+	src:"graphics/fonts/Ubuntu-Regular.ttf" format("truetype");
+}
+@font-face{
+	font-family: "Roboto";
+	src:"graphics/fonts/Roboto-Regular.ttf" format("truetype");
+}
+@font-face{
+	font-family: "Noto Sans";
+	src:"graphics/fonts/NotoSans-Regular.ttf" format("truetype");
+}
+
+.f-inconsolata{
+	font-family: "Inconsolata", monospace;
+}
+.f-cabin{
+	font-family: "Cabin", sans-serif;
+}
+.f-worksans{
+	font-family: "Work Sans", sans-serif;
+}
+.f-ubuntu{
+	font-family: "Ubuntu", sans-serif;
+}
+.f-overpass{
+	font-family: "Overpass", sans-serif;
+}
+.f-notosans{
+	font-family: "Noto Sans", sans-serif;
+}
+.f-roboto{
+	font-family: "Roboto", sans-serif;
+}
+
+
 body{
 	/*		Layout Formatting		*/
 	background:#222222;
@@ -7,8 +59,7 @@ body{
 	margin:0;
 	/*		Text Formatting		*/
 	color: #eeeeee;
-	font-family: 'Inconsolata', monospace;
-	font-size: 14px;
+	font-size:14px;
 }
 a{
 	color: #cccccc;
@@ -48,11 +99,11 @@ a:hover{
 	border: 0px;
 	margin: 0px;
 	padding: 0px;
-	height: 14px;
+	height: 14.5px;
 	outline: none;
 	flex-grow: 1;
 	/*		Text Formatting		*/
 	color: inherit;
-	font-family: 'Inconsolata', monospace;
-	font-size: 14px;
+	font-family: inherit;
+	font-size: inherit;
 }
